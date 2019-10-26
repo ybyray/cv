@@ -12,6 +12,7 @@ html {
 .profile {
     max-width: 350px;
     background-color: #39383a;
+    color: #ababab;
 }
 
 .profile-info {
@@ -34,13 +35,13 @@ html {
 .header-light {
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 1;
     text-transform: uppercase;
     letter-spacing: 0.63px;
     border-bottom: 2px dashed #5a5a5a;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 }
 
 .profile-text {
@@ -50,7 +51,39 @@ html {
     font-weight: 300;
     line-height: 24.19px;
     letter-spacing: 0.5px;
+    margin-bottom: 50px;
 }
 
+.contacts {
+}
+
+.contacts-item {
+    border-bottom: 2px dashed #5a5a5a;
+    padding-bottom: 20px;
+}
+
+i {
+    padding-right: 10px;
+}
+
+.contacts__title {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.63px;
+    margin-bottom: 10px;
+}
+
+.contacts__link {
+    color: #ababab;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    padding-left: 25px;
+}
 /* font-family: 'Open Sans', sans-serif; */
 /* font-family: 'Roboto', sans-serif; */
