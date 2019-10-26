@@ -1,0 +1,56 @@
+html {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    max-width: 960px;
+    background-color: #eaeaea;
+    margin: 0 auto;
+}
+
+.profile {
+    max-width: 350px;
+    background-color: #39383a;
+}
+
+.profile-info {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.profile-photo {
+    width: 100%;
+    height: 235px;
+    background: url(https://sun9-11.userapi.com/c858224/v858224929/96ddb/RMGownTbi1w.jpg) no-repeat center / cover;
+}
+
+.header {
+    margin: 0;
+}
+
+.header-light {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 0.63px;
+    border-bottom: 2px dashed #5a5a5a;
+    padding-bottom: 15px;
+}
+
+.profile-text {
+    color: #ababab;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 24.19px;
+    letter-spacing: 0.5px;
+}
+
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
