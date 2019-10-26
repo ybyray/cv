@@ -24,7 +24,7 @@ html {
 .profile-photo {
     width: 100%;
     height: 235px;
-    background: url('https://sun9-11.userapi.com/c858224/v858224929/96ddb/RMGownTbi1w.jpg') no-repeat center / cover;
+    background: url(https://sun9-11.userapi.com/c858224/v858224929/96ddb/RMGownTbi1w.jpg) no-repeat center / cover;
 }
 
 .header {
