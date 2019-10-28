@@ -244,4 +244,80 @@ i {
     width: 90%;
 }
 
+@media (max-width: 1024px) {
+    .profile {
+        max-width: 100%;
+    }
+
+    .resume {
+        padding: 10px 20px;
+    }
+
+    .resume-wrap {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .profile-info {
+        padding-bottom: 20px;
+    }
+
+    .profile-text {
+        margin-bottom: 20px;
+    }
+
+    .list-item {
+        padding-right: 10px;
+        padding-left: 20px;
+
+    }
+}
+
+@media (max-width: 576px) {
+
+    .profile-info {
+        padding-top: 35px;
+        padding-bottom: 0;
+    }
+
+    .name {
+        margin-top: 20px;
+        font-size: 14px;
+    }
+
+    .about {
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .list {
+        padding-left: 15px;
+    }
+
+    .resume-wrap {
+        width: 536px;
+    }
+
+    .experience {
+        padding: 0;
+        margin-bottom: 35px;
+    }
+
+    .education {
+        padding: 0;
+        margin-bottom: 35px;
+    }
+
+    .skills {
+        padding: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+
 /* font-family: 'Open Sans', sans-serif; */
